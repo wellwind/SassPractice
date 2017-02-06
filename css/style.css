@@ -1,4 +1,22 @@
 .content::after {
   content: "Hello World!"; }
 
+h1 {
+  font-size: 60px; }
+
+h2 {
+  font-size: 48px; }
+
+h3 {
+  font-size: 36px; }
+
+h4 {
+  font-size: 24px; }
+
+h5 {
+  font-size: 18px; }
+
+h6 {
+  font-size: 15.6px; }
+
 /*# sourceMappingURL=style.css.map */
