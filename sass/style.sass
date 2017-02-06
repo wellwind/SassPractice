@@ -39,3 +39,14 @@ h6
   .notice
     color: red
 
+%base-footer
+  color: green
+
+.footer1
+  @extend %base-footer
+  background-color: lightblue
+
+.footer2
+  @extend .footer1
+  font-size: $font-size * 2
+
