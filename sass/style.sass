@@ -1,7 +1,15 @@
 $hi: 'Hello World!'
 $font-size: 12px
 
+@mixin my-font-style($size, $color: black)
+  color: $color
+  font-size: $size
+
+body
+  @include my-font-style($font-size, lightgreen)
+
 .content::after
+  @include my-font-style(30px)
   content: $hi
 
 h1
