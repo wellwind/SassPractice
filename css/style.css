@@ -25,4 +25,12 @@ h5 {
 h6 {
   font-size: 15.6px; }
 
+.main-content {
+  background-color: lightgray;
+  color: black;
+  font-size: 10.8px;
+  width: 500px; }
+  .main-content .notice {
+    color: red; }
+
 /*# sourceMappingURL=style.css.map */
