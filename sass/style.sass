@@ -1,6 +1,7 @@
 $hi: 'Hello World!'
 $font-size: 12px
 $condition: true
+$color-list: red black green
 
 @mixin my-font-style($size, $color: black)
   color: $color
@@ -46,6 +47,10 @@ h6
 @for $i from 1 through 5
   .content-#{$i}
     background-color: lighten(#FF0000, $i * 5)
+
+@each $color in $color-list
+  .content-#{$color}
+    background-color: $color
 
 %base-footer
   color: green

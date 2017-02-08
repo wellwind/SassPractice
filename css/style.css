@@ -48,6 +48,15 @@ h6 {
 .content-5 {
   background-color: #ff8080; }
 
+.content-red {
+  background-color: red; }
+
+.content-black {
+  background-color: black; }
+
+.content-green {
+  background-color: green; }
+
 .footer1, .footer2 {
   color: green; }
 
