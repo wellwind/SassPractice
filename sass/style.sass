@@ -1,5 +1,6 @@
 $hi: 'Hello World!'
 $font-size: 12px
+$condition: true
 
 @mixin my-font-style($size, $color: black)
   color: $color
@@ -13,7 +14,10 @@ body
   content: $hi
 
 h1
-  font-size: $font-size * 5
+  @if $condition
+    font-size: $font-size * 10
+  @else
+    font-size: $font-size * 5
 
 h2
   font-size: $font-size * 4
