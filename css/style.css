@@ -33,6 +33,21 @@ h6 {
   .main-content .notice {
     color: red; }
 
+.content-1 {
+  background-color: #ff1a1a; }
+
+.content-2 {
+  background-color: #ff3333; }
+
+.content-3 {
+  background-color: #ff4d4d; }
+
+.content-4 {
+  background-color: #ff6666; }
+
+.content-5 {
+  background-color: #ff8080; }
+
 .footer1, .footer2 {
   color: green; }
 
